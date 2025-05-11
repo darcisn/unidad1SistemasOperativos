@@ -1,0 +1,60 @@
+<h1>1-	¿Cuáles son las principales funciones de un kernel en la arquitectura de un sistema operativo y cómo interactúa con el hardware?</h1>
+<p>El kernel, también conocido como núcleo, es el componente central y esencial de un sistema operativo. Actúa como intermediario entre el hardware de la computadora y las aplicaciones que se ejecutan en ella, gestionando los recursos del sistema y garantizando su funcionamiento eficiente y seguro.
+
+Principales funciones del kernel
+Gestión de procesos
+El kernel se encarga de crear, programar y finalizar procesos. Asigna tiempo de CPU a cada proceso y gestiona su estado (ejecución, espera, etc.), permitiendo la multitarea y la ejecución eficiente de programas.
+
+Gestión de memoria
+Controla la asignación y liberación de memoria para los procesos en ejecución. Maneja la memoria virtual, permitiendo que el sistema use más memoria de la que físicamente está disponible, y asegura que los procesos no interfieran entre sí.
+
+Gestión de dispositivos
+Actúa como mediador entre el software y los dispositivos de hardware, como discos duros, impresoras y otros periféricos. Utiliza controladores (drivers) para interactuar con estos dispositivos, facilitando la comunicación entre el sistema operativo y el hardware.
+
+Sistema de archivos
+Facilita la creación, eliminación y acceso a archivos y directorios en el sistema de almacenamiento. Administra los sistemas de archivos y garantiza el acceso seguro a los datos, permitiendo una organización eficiente de la información.
+
+Seguridad y control de acceso
+Implementa políticas de seguridad para proteger el hardware y los datos del sistema. Gestiona usuarios y permisos, controlando el acceso a recursos y evitando que procesos no autorizados comprometan la integridad del sistema.
+
+Interacción del kernel con el hardware
+El kernel interactúa directamente con el hardware a través de controladores de dispositivos. Estos controladores traducen las solicitudes del software en comandos que el hardware puede entender y viceversa. Además, el kernel maneja interrupciones, que son señales enviadas por el hardware para indicar eventos que requieren atención inmediata, como la llegada de datos desde un dispositivo de entrada. Al gestionar estas interrupciones, el kernel asegura una comunicación eficiente y oportuna entre el hardware y el software.</p>
+
+<h1>2-	¿cómo se gestionan los procesos y cuál es la importancia de la multitarea en la eficiencia del sistema?</h1>
+<p>El kernel gestiona los procesos mediante la creación, programación y finalización de los mismos, utilizando algoritmos de planificación para asignar tiempo de CPU de manera eficiente.
+
+La multitarea permite la ejecución concurrente de múltiples procesos, mejorando el aprovechamiento de la CPU y la capacidad de respuesta del sistema. Existen dos tipos principales: cooperativa, donde los procesos ceden voluntariamente el control, y apropiativa, donde el sistema operativo interrumpe procesos para asignarles tiempo de CPU.</p>
+
+<h1>3-	¿Qué medidas de seguridad se pueden implementar a nivel de sistema operativo para proteger una red, especialmente en entornos empresariales?</h1>
+<p> Medidas de seguridad a nivel de sistema operativo
+Implementación de firewalls (cortafuegos)
+Los firewalls controlan el tráfico de red entrante y saliente, bloqueando accesos no autorizados y permitiendo solo comunicaciones legítimas. Es recomendable configurar firewalls tanto a nivel de red como en cada dispositivo individual.
+
+Uso de antivirus y antimalware actualizados
+Instalar y mantener actualizado un software antivirus confiable ayuda a detectar y eliminar amenazas como virus, ransomware y spyware, protegiendo los sistemas operativos contra software malicioso.
+
+Aplicación de políticas de control de acceso y autenticación
+Implementar políticas de acceso basadas en roles y utilizar autenticación de dos factores (2FA) refuerza la seguridad, asegurando que solo usuarios autorizados tengan acceso a recursos críticos.
+
+Segmentación de la red
+Dividir la red en segmentos aislados limita la propagación de posibles intrusiones, permitiendo un control más granular del tráfico y reduciendo riesgos en caso de compromisos.
+
+Implementación de sistemas de detección y prevención de intrusiones (IDS/IPS)
+Estas herramientas monitorean el tráfico de red en busca de actividades sospechosas, alertando y, en algunos casos, bloqueando automáticamente intentos de intrusión.
+
+Cifrado de comunicaciones y datos
+Utilizar protocolos seguros como HTTPS y VPNs garantiza que la información transmitida esté protegida contra interceptaciones y accesos no autorizados.
+
+Actualización y parcheo regular del sistema operativo y aplicaciones
+Mantener el sistema operativo y el software actualizado es crucial para corregir vulnerabilidades conocidas y proteger contra exploits.
+
+Eliminación de usuarios y servicios innecesarios
+Desactivar o eliminar cuentas de usuario y servicios que no se utilizan reduce la superficie de ataque y minimiza posibles vectores de intrusión.
+
+Monitoreo y auditoría continua
+Implementar herramientas de monitoreo permite detectar actividades inusuales en tiempo real, facilitando una respuesta rápida ante posibles incidentes de seguridad.
+
+Educación y concienciación del personal
+Formar a los empleados en prácticas de seguridad informática, como el reconocimiento de correos electrónicos de phishing y la gestión adecuada de contraseñas, es esencial para prevenir errores humanos que puedan comprometer la seguridad.
+
+</p>
